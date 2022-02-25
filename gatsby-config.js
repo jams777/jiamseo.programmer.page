@@ -14,7 +14,7 @@ module.exports = {
     twitterUsername: "jams777",
     facebookUsername: "jiam.seo",
     instagramUsername: "jiamseo",
-    linkedinUsername: "jams777",
+    linkedinUsername: "in/jams777",
     image: "/macbook-color.jpg",
     siteUrl: "https://jiam.kr",
     developerName: "Jiam Seo Development",
@@ -35,8 +35,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://barcadia.netlify.com",
-        sitemap: "https://barcadia.netlify.com/sitemap.xml",
+        host: "https://jiam.kr",
+        sitemap: "https://jiam.kr/sitemap/sitemap-index.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
