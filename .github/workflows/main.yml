@@ -1,5 +1,8 @@
 name: Gatsby Publish
-
+env:
+  GATSBY_NODE_ENV: ${{ secrets._NODE_ENV }}
+  GATSBY_CONTENTFUL_SPACE_ID: ${{ secrets.CONTENTFUL_SPACE_ID }}
+  GATSBY_CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
 on:
   push:
     branches: [ main ]
