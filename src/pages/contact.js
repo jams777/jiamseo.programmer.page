@@ -10,7 +10,7 @@ const contact = () => {
     <>
       <Seo title="Contact" />
       <Layout>
-        <SimpleBanner title="Get in touch">
+        <SimpleBanner title="Donny의 궁금증을 물어보세요">
           <StaticImage
             className="banner__image"
             src="../../static/macbook-dark.jpg"

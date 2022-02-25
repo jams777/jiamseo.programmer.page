@@ -11,13 +11,12 @@ const error = () => {
       <Layout>
         <div className="section">
           <div className="container container__tight">
-            <h1>Sorry.</h1>
-            <h3>This page has moved or no longer exists.</h3>
+            <h1>미안해요.</h1>
+            <h3>이 페이지는 더이상 존재하지 않아요~</h3>
             <p>
-              Please choose another option from the menu above, or to return
-              home, press the button below.
+              다른 메뉴를 선택해주세요
             </p>
-            <Button text="Return Home" to="/" as={Link} />
+            <Button text="돌아가기" to="/" as={Link} />
           </div>
         </div>
       </Layout>

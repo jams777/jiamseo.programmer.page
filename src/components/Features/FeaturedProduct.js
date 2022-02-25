@@ -14,13 +14,13 @@ const FeaturedProduct = ({ feature }) => {
         <GatsbyImage
           className="features__item--img"
           image={image}
-          alt="Product Image"
+          alt="직업 이미지"
         />
         {title && introduction && (
           <div className="features__item--content">
             {title && <h4>{title}</h4>}
             {introduction && <p>{introduction}</p>}
-            <Button text="Read More" as="span" arrow={true} />
+            <Button text="자세히 보기" as="span" arrow={true} />
           </div>
         )}
       </Link>

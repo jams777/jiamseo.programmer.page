@@ -1,18 +1,22 @@
 export const menuItems = [
   {
     path: "/",
-    text: "home",
+    text: "처음으로",
   },
   {
-    path: "/products",
-    text: "products",
+    path: "/about",
+    text: "도니에대해",
   },
   {
-    path: "/blogs",
-    text: "blog",
+    path: "/about",
+    text: "도니의일정",
   },
   {
     path: "/contact",
-    text: "contact",
+    text: "메시지보내기",
+  },
+  {
+    path: "/products",
+    text: "Donny직업",
   },
 ]

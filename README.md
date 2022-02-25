@@ -11,7 +11,7 @@ Barcadia V2 Starter([github](https://github.com/bagseye/barcadia.git)) 로 시�
 
 1.  **Gatsby 사이트 생성**
 
-    Gatsby CLI 명령어를 사용해서 사이트를 생성
+    Gatsby CLI ( npm install -g gatsby-cli 또는 yarn global add gatsby-cli ) 명령어를 사용해서 사이트를 생성
 
     ```shell
     # create a new Gatsby site using the barcadia starter

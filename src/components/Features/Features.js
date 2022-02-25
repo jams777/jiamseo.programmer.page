@@ -25,7 +25,7 @@ const Features = ({ title, introduction }) => {
         })}
       </div>
       <div className="container container__tight learn__more">
-        <Button as={Link} to="/products" text="All Products" />
+        <Button as={Link} to="/products" text="전체보기" />
       </div>
     </FeaturedProductsStyles>
   )

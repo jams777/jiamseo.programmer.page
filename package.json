@@ -1,7 +1,7 @@
 {
-  "name": "barcadia",
+  "name": "jiamkr_homepage",
   "private": true,
-  "description": "A super-fast site using GatsbyJS",
+  "description": "jiam kr homepage",
   "version": "2.0.0",
   "license": "MIT",
   "scripts": {
