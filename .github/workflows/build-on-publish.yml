@@ -8,7 +8,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
+        with:
+          ref: 'main'
       - uses: enriikke/gatsby-gh-pages-action@v2.2.0
         env:
           GATSBY_NODE_ENV: ${{ secrets._NODE_ENV }}
