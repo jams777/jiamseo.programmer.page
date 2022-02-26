@@ -1,0 +1,32 @@
+name: Gatsby Publish on Contentful Publish Event
+
+on:
+  repository_dispatch:
+  types: [publish-event]
+  
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: enriikke/gatsby-gh-pages-action@v2.2.0
+        env:
+          GATSBY_NODE_ENV: ${{ secrets._NODE_ENV }}
+          GATSBY_CONTENTFUL_SPACE_ID: ${{ secrets.CONTENTFUL_SPACE_ID }}
+          GATSBY_CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
+          NODE_ENV: ${{ secrets._NODE_ENV }}
+          CONTENTFUL_SPACE_ID: ${{ secrets.CONTENTFUL_SPACE_ID }}
+          CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          deploy-branch: gh-pages
+          # deploy-repo: # optional, default is 
+          # Additional arguments that get passed to `gatsby build`.
+          # gatsby-args: # optional, default is 
+          # Builds your Gatsby site but skips publishing by setting it to `true`. Helpful for testing/debugging Workflows.
+          skip-publish: false
+          # working-dir: # optional, default is .
+          # The commit message used for pushing changes to the deploy branch.
+          # commit-message: # optional, default is 
+          git-config-name: JiamSeo
+          git-config-email: jams7777@gmail.com
