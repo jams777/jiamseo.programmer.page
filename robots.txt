@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://jiam.kr/sitemap/sitemap-index.xml
+Host: https://jiam.kr
